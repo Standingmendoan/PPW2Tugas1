@@ -1,16 +1,21 @@
 {
-    "private": true,
-    "type": "module",
-    "scripts": {
-        "dev": "vite",
-        "build": "vite build"
-    },
-    "devDependencies": {
-        "@popperjs/core": "^2.11.6",
-        "axios": "^1.1.2",
-        "bootstrap": "^5.2.3",
-        "laravel-vite-plugin": "^0.8.0",
-        "sass": "^1.69.4",
-        "vite": "^4.5.0"
-    }
+  "name": "your-project",
+  "version": "1.0.0",
+  "description": "Your project description",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vite"
+  },
+  "author": "Your Name",
+  "license": "ISC",
+  "dependencies": {
+    "@popperjs/core": "^2.11.6",
+    "axios": "^1.1.2",
+    "bootstrap": "^5.2.3",
+    "laravel-vite-plugin": "^0.8.0",
+    "sass": "^1.69.4"
+  },
+  "devDependencies": {
+    "vite": "^4.5.0"
+  }
 }
